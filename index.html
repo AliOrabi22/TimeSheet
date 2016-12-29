@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+
+  <head>
+    <title>TimeSheet</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  </head>
+
+  <body class="container">
+    <h2 class="text-center">Time Sheet</h2>
+    <div class="row">
+      <label for="checkin">check in: </label>
+      <input type="time" name="checkin" id="checkin">
+    </div>
+    <div class="row">
+      <label for="checkut">check out: </label>
+      <input type="time" name="checkout" id="checkout">
+    </div>
+    <div class="row">
+      <a class="btn btn-primary" id="button">
+        Calculate Working Hours
+      </a>
+    </div>
+  </body>
+
+   <script src="./src/script.js"></script>
+</html>
