@@ -64,7 +64,7 @@ function getTimeInHours(minutes){
       reject(notValidError);
     }
 
-    resolve(Math.round((minutes / 60) * 10) / 10); 
+    resolve(Math.round((minutes / 60) * 100) / 100); 
   });
 }
 
